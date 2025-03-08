@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PRABATH-MD~cFBjgIRB#0mxksYl-LFZeTT36DXqBfJw5j2M5ieBCXqmz-H7kfos' : process.env.SESSION_ID,
     PREFIX: process.env.PREFIX || '.',
     FOOTER: process.env.FOOTER || "*𝐃𝐢𝐝𝐮𝐥𝐚 𝐌𝐃 𝐕𝟐 🍃*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/za6ytm.jpg",
